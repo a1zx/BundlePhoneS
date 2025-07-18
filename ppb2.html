@@ -320,64 +320,92 @@
     ];
     // !! ВНИМАНИЕ: Только тут поменял список телефонов
     const phones = [
-      { title: "iPhone 16 Black", desc: "Apple", rating: 4.8,
+      // IPHONES новые
+      {
+        title: "16 (Black)",
+        desc: "Flagship, 2024",
+        rating: 4.9,
         img: "https://i.ibb.co/G4JYdB1R/black-16-3-is.png",
         colors: [
-          {name:"Black", url:"https://i.ibb.co/G4JYdB1R/black-16-3-is.png", hex:"#222"},
+          {name:"Black", url:"https://i.ibb.co/G4JYdB1R/black-16-3-is.png", hex:"#222426"}
         ],
-        storages: ["256GB", "512GB", "1TB"]
+        storages: ["128GB", "256GB", "512GB"]
       },
-      { title: "iPhone 16 Pro Max Black Titanium", desc: "Apple", rating: 4.9,
+      {
+        title: "16 Pro Max (Black)",
+        desc: "Flagship, Pro Max",
+        rating: 5.0,
         img: "https://i.ibb.co/LDcHYXk4/blacktitanium-16pro-MAX-1-is.png",
         colors: [
-          {name:"Black Titanium", url:"https://i.ibb.co/LDcHYXk4/blacktitanium-16pro-MAX-1-is.png", hex:"#222"},
+          {name:"Black Titanium", url:"https://i.ibb.co/LDcHYXk4/blacktitanium-16pro-MAX-1-is.png", hex:"#232527"}
         ],
         storages: ["256GB", "512GB", "1TB"]
       },
-      { title: "iPhone 16 White", desc: "Apple", rating: 4.7,
+      {
+        title: "16 (White)",
+        desc: "Compact, 2024",
+        rating: 4.8,
         img: "https://i.ibb.co/LXt6bxWY/white-16-3-is.png",
         colors: [
-          {name:"White", url:"https://i.ibb.co/LXt6bxWY/white-16-3-is.png", hex:"#fff"}
+          {name:"White", url:"https://i.ibb.co/LXt6bxWY/white-16-3-is.png", hex:"#f8f8f8"}
         ],
-        storages: ["256GB", "512GB"]
+        storages: ["128GB", "256GB", "512GB"]
       },
-      { title: "iPhone 16 Pro Max White Titanium", desc: "Apple", rating: 4.8,
+      {
+        title: "16 Pro Max (White)",
+        desc: "Pro Max, 2024",
+        rating: 4.9,
         img: "https://i.ibb.co/Swm5D3yd/whitetitanium-16pro-MAX-1-is.png",
         colors: [
-          {name:"White Titanium", url:"https://i.ibb.co/Swm5D3yd/whitetitanium-16pro-MAX-1-is.png", hex:"#f9f9f9"}
+          {name:"White Titanium", url:"https://i.ibb.co/Swm5D3yd/whitetitanium-16pro-MAX-1-is.png", hex:"#f7f7f7"}
         ],
         storages: ["256GB", "512GB", "1TB"]
       },
-      { title: "iPhone 15 Black", desc: "Apple", rating: 4.7,
+      {
+        title: "15 (Black)",
+        desc: "Classic, 2023",
+        rating: 4.7,
         img: "https://i.ibb.co/XxnBRDS6/15-Black-40-is.png",
         colors: [
-          {name:"Black", url:"https://i.ibb.co/XxnBRDS6/15-Black-40-is.png", hex:"#232527"}
+          {name:"Black", url:"https://i.ibb.co/XxnBRDS6/15-Black-40-is.png", hex:"#25272a"}
         ],
         storages: ["128GB", "256GB"]
       },
-      { title: "iPhone 15 Blue", desc: "Apple", rating: 4.7,
+      {
+        title: "15 (Blue)",
+        desc: "Blue, 2023",
+        rating: 4.7,
         img: "https://i.ibb.co/39DmR16k/15-Blu-4-is.png",
         colors: [
-          {name:"Blue", url:"https://i.ibb.co/39DmR16k/15-Blu-4-is.png", hex:"#88b5ef"}
+          {name:"Blue", url:"https://i.ibb.co/39DmR16k/15-Blu-4-is.png", hex:"#8bb1e2"}
         ],
         storages: ["128GB", "256GB"]
       },
-      { title: "iPhone 15 Pro Max Black Titanium", desc: "Apple", rating: 4.8,
+      {
+        title: "15 Pro Max (Black)",
+        desc: "Pro Max, Black, 2023",
+        rating: 4.8,
         img: "https://i.ibb.co/whbmT25Y/15-pro-max-black-titan-4-is-kopiya.png",
         colors: [
-          {name:"Black Titanium", url:"https://i.ibb.co/whbmT25Y/15-pro-max-black-titan-4-is-kopiya.png", hex:"#111"}
+          {name:"Black Titanium", url:"https://i.ibb.co/whbmT25Y/15-pro-max-black-titan-4-is-kopiya.png", hex:"#232527"}
         ],
         storages: ["256GB", "512GB"]
       },
-      { title: "iPhone 15 Pro Max White Titanium", desc: "Apple", rating: 4.8,
+      {
+        title: "15 Pro Max (White)",
+        desc: "Pro Max, White, 2023",
+        rating: 4.8,
         img: "https://i.ibb.co/cSnPsH6V/15-pro-max-white-titan-4-is-kopiya.png",
         colors: [
-          {name:"White Titanium", url:"https://i.ibb.co/cSnPsH6V/15-pro-max-white-titan-4-is-kopiya.png", hex:"#f5f5f5"}
+          {name:"White Titanium", url:"https://i.ibb.co/cSnPsH6V/15-pro-max-white-titan-4-is-kopiya.png", hex:"#f8f8f8"}
         ],
         storages: ["256GB", "512GB"]
       },
-      // Самсунг и верту — как было!
-      { title: "Samsung Galaxy S25", desc: "Silver Shadow, 2025", rating: 4.6,
+      // SAMSUNG & VERTU
+      {
+        title: "S25",
+        desc: "Silver Shadow, 2025",
+        rating: 4.6,
         img: "https://i.ibb.co/RTPKzfsV/smartfon-samsung-galaxy-s25-12-512gb-silver-shadow-sm-s931bzsheuc-4ec170bd-d08d-457a-a944-e5596e9709.webp",
         colors: [
           {name:"Silver Shadow", url:"https://i.ibb.co/RTPKzfsV/smartfon-samsung-galaxy-s25-12-512gb-silver-shadow-sm-s931bzsheuc-4ec170bd-d08d-457a-a944-e5596e9709.webp", hex:"#ccd3db"},
@@ -385,7 +413,10 @@
         ],
         storages: ["256GB", "512GB", "1TB"]
       },
-      { title: "Vertu Metavertu 2", desc: "Web3 AI Phone", rating: 4.9,
+      {
+        title: "2",
+        desc: "",
+        rating: 4.9,
         img: "https://i.ibb.co/ccDD5vLz/vertu-metavertu-2-calfskin-web3-ai-phone-512gb-white-f0a5af07-dc38-4fa6-bbd0-ec93e6b6db4e-3-png.webp",
         colors: [
           {name:"White Calfskin", url:"https://i.ibb.co/ccDD5vLz/vertu-metavertu-2-calfskin-web3-ai-phone-512gb-white-f0a5af07-dc38-4fa6-bbd0-ec93e6b6db4e-3-png.webp", hex:"#fafafa"}
